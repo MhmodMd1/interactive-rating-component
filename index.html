@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+  <title>Frontend Mentor | Interactive rating component</title>
+</head>
+<body>
+
+    <!-- Rating state start -->
+    <main class="main">
+    <div class="card" >
+      <div class="image">
+        <img src="images/icon-star.svg" alt="">
+      </div>
+      <h1>How did we do?</h1>
+      <p>Please let us know how we did with your support request. All feedback is appreciated 
+        to help us improve our offering!</p>
+      
+      <form action="#" class="form" id="0">
+        <label for="1">
+          <input type="text" id="1" name="one" class="list" value="1" readonly>
+        </label>
+        <label for="2">
+          <input type="text" id="2" name="two" class="list" value="2" readonly>
+        </label>
+        <label for="3">
+          <input type="text" id="3" name="three" class="list" value="3" readonly>
+        </label>
+        <label for="4">
+          <input type="text" id="4" name="four" class="list" value="4" readonly>
+        </label>
+        <label for="5">
+          <input type="text" id="5" name="five" class="list" value="5" readonly>
+        </label>
+        <button id="submit_btn" class="btn_submit" type="submit">SUBMIT</button>
+      </form>
+    </div>
+    <!-- End Rating state -->
+    <!-- Thanks Start  -->
+    <div class="thanks" style="display: none;">
+      <div class="image-two" style="width: 115px;">
+        <img style="max-width: 100%;" src="images/illustration-thank-you.svg" alt="">
+      </div>
+      <h2>Thank you!</h2>
+      <p>
+        We appreciate you taking the time to give a rating. If you ever need more support, 
+        don’t hesitate to get in touch!
+      </p>
+      <button id="back_btn" class="btn_submit" type="submit">
+        BACK
+      </button>
+    </div>
+    </main>
+    <script src="js/main.js"></script>
+</body>
+</html>
